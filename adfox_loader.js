@@ -857,7 +857,7 @@
         y = n(27),
         b = 5e3,
         w = 2048,
-        x = "ads.adfox.ru";
+        x = "/c55f0a7a0acd4bbd363c889e35f865bd/v1/4uj0bf9rwn8k/YWRzLmFkZm94LnJ1Lw==-";
     o.prototype = {
         constructor: o,
         render: function(t) {
