@@ -490,6 +490,7 @@
         var i = o.pathname;
         "/" !== i[0] && (i = "/" + i);
         var a = /\/(\d+)\//.exec(i);
+        debugger;
         a && a[1] && (r.ownerId = a[1]);
         for (var s = o.search.slice(1).replace(/&amp;/g, "&"), c = s.split("&"), d = 0; d < c.length; d++) {
             var u = c[d],
@@ -820,6 +821,7 @@
     }
 
     function o(t, e) {
+        debugger;
         var n = this;
         this._isSkipTokenReceived = !1, this._win = t, this._doc = t.document, this._loc = t.location, this._params = e.params, this._domain = e.customDomain || x, this._ownerId = e.ownerId, this._pr = l.pr, this._pr1 = f(), this._dt = new Date, this._directTimeoutTime = e.directTimeoutTime || b, this._isNoDestroy = e.isNoDestroy, this._container = e.container, this._callbacks = {
             onRender: e.onRender,
@@ -857,7 +859,7 @@
         y = n(27),
         b = 5e3,
         w = 2048,
-        x = "/c55f0a7a0acd4bbd363c889e35f865bd/v1/4uj0bf9rwn8k/YWRzLmFkZm94LnJ1Lw==-";
+        x = "ads.adfox.ru";
     o.prototype = {
         constructor: o,
         render: function(t) {
