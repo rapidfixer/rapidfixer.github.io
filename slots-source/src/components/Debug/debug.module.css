@@ -1,0 +1,33 @@
+.wrapper {
+  font: 14px/16px Arial, sans-serif;
+  color: white;
+  background-color: black;
+}
+.table td {
+  padding: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.table thead {
+  background-color: grey;
+}
+.elementSelect {
+  background-color: black;
+  color: white;
+  
+}
+.elementSelect.selected {
+  background-color: green;
+}
+.positionSelect {
+  background-color: lightpink;
+}
+.positionSelect.selected {
+  background-color: red;
+}
+.selected {
+  color: white;
+}

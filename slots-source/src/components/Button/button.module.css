@@ -1,0 +1,31 @@
+.button {
+    height: 40px;
+    width: fit-content;
+    padding: 5px 10px;
+    font: 16px/20px Arial, sans-serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 24px 0px rgba(122,38,122,1);
+}
+.button[disabled] {
+    opacity: 0.2;
+    cursor: default;
+    box-shadow: 0px 0px 4px 0px rgba(122,38,122,0.5);
+}
+.button:hover {
+    box-shadow: 0px 0px 30px 5px rgba(122,38,122,1);
+}
+.button:active {
+    box-shadow: none;
+}
+.default {
+    background-color: white;
+}
+.action {
+    color: white;
+    border: none;
+    background-color: rgba(122,38,122,1);
+}
+
+

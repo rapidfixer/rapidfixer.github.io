@@ -1,0 +1,40 @@
+.wrapper {
+  width: fit-content;
+  font: 16px/20px Futura, Arial, sans-serif;
+  text-transform: uppercase;
+  background: goldenrod;
+  border-radius: 15px;
+}
+.wrapper td {
+  padding: 5px;
+  vertical-align: middle;
+  text-align: center;
+  border: 2px solid black;
+}
+.combination {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}
+.combination > div {
+  margin: 0 5px;
+}
+.score {
+  font-size: 20px
+}
+.activeRow {
+	animation: shadow-drop-center 0.3s infinite both;
+}
+
+@keyframes shadow-drop-center {
+  0% {
+    color: black;
+    background-color: transparent;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    color: white;
+    background-color: rgba(255,30,0,0.95);
+    box-shadow: 0 0 30px 0px rgba(255,0,0,0.95);
+  }
+}
