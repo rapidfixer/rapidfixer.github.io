@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/slots/static/css/main.62c0bb39.chunk.css",
+    "main.js": "/slots/static/js/main.df2d1f17.chunk.js",
+    "main.js.map": "/slots/static/js/main.df2d1f17.chunk.js.map",
+    "runtime-main.js": "/slots/static/js/runtime-main.1e7b5f15.js",
+    "runtime-main.js.map": "/slots/static/js/runtime-main.1e7b5f15.js.map",
+    "static/js/2.5ebdcbc5.chunk.js": "/slots/static/js/2.5ebdcbc5.chunk.js",
+    "static/js/2.5ebdcbc5.chunk.js.map": "/slots/static/js/2.5ebdcbc5.chunk.js.map",
+    "index.html": "/slots/index.html",
+    "precache-manifest.2f1e6d373364bc6221a57ece8a2c3c0d.js": "/slots/precache-manifest.2f1e6d373364bc6221a57ece8a2c3c0d.js",
+    "service-worker.js": "/slots/service-worker.js",
+    "static/css/main.62c0bb39.chunk.css.map": "/slots/static/css/main.62c0bb39.chunk.css.map",
+    "static/media/reelIcon.module.css": "/slots/static/media/Cherry.565a5779.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e7b5f15.js",
+    "static/js/2.5ebdcbc5.chunk.js",
+    "static/css/main.62c0bb39.chunk.css",
+    "static/js/main.df2d1f17.chunk.js"
+  ]
+}
